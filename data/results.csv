@@ -1,0 +1,37 @@
+relay_no,relay_id,model,slot,zero_cross,load,cycles,runtime_s,end_of_test,contact_res_start_mohm,contact_res_end_mohm,t_on_start_us,t_off_start_us,t_on_end_us,t_off_end_us,load_temp_c,start_date,end_date,firmware_valid,in_lifetime_stats,note
+3,0x3,APAN3105,2,off,resistive,13095,18770,,,,,,,,,,,no,no,
+5,0x5,APAN3105,1,on,resistive,90710,136510,stopped,,,,,,,,,,no,no,did not finish (stopped)
+6,0x6,APAN3105,2,off,resistive,9196,13191,,,,,,,,,,,no,no,
+7,0x7,APAN3105,1,off,resistive,16741,34866,,,,,,,,,,,no,no,
+8,0x8,APAN3105,2,on,resistive,50495,103935,stopped,,,,,,,,,,no,no,did not finish (stopped)
+9,0x9,APAN3105,2,off,resistive,5818,12222,,,,,,,,,,,no,no,
+11,0xB,APAN3105,1,on,resistive,119594,147158,,,,,,,,,,,no,no,
+12,0xC,APAN3105,2,off,resistive,11117,4508,,,,,,,,,,,no,no,
+13,0xD,APAN3105,2,on,resistive,150682,182652,stopped,,,,,,,,,,no,no,did not finish (stopped)
+14,0xE,APAN3105,1,off,resistive,9927,12111,,,,,,,,,,,no,no,
+15,0xF,APAN3105,1,on,resistive,23777,28956,stopped,,,,,,,,,,no,no,did not finish (stopped)
+16,0x10,APAN3105,1,on,resistive,32116,40421,,,,,,,,,,,no,no,housing deformed on both sides
+17,0x11,APAN3105,2,on,resistive,61994,76981,,,,,,,,,,,no,no,
+18,0x12,APAN3105,1,off,resistive,14967,24081,,,19.45,4755,4916,4579,7795,,2026-04-26,2026-05-01,no,no,firmware 1.1.3
+19,0x13,APAN3105,2,off,resistive,13020,22344,,,16.43,4717,4553,4563,6179,,2026-04-26,2026-05-01,no,no,
+20,0x14,APAN3105,1,on,resistive,17993,20424,,12.4,21.14,4613,4912,4394,3503,,2026-05-11,2026-05-11,no,no,pre-damaged specimen
+21,0x15,APAN3105,2,on,resistive,5479,9108,,12.96,,4909,5047,5140,7041,,2026-05-11,2026-05-11,no,no,end resistance measurement failed; cooldown too short in test firmware
+22,0x16,APAN3105,1,on,resistive,1302480,2122163,welded,12.35,13.8,4484,3346,4229,2861,,2026-05-12,2026-06-22,yes,yes,first run with firmware 1.1.4
+23,0x17,APAN3105,2,on,resistive,468158,1057736,welded,12.14,16.74,4551,4827,4638,6588,,2026-05-12,2026-06-06,yes,yes,
+24,0x18,APAN3105,2,off,resistive,19890,44286,welded,13.04,29.25,4983,4834,5173,7534,,2026-06-08,2026-06-09,yes,yes,
+25,0x19,APAN3105,2,off,resistive,16087,35822,welded,12.59,16.52,4790,4808,4737,5226,,2026-06-09,2026-06-10,yes,yes,
+26,0x1A,APAN3105,2,off,resistive,23004,51219,welded,12.56,15.75,4674,4725,4819,5879,,2026-06-16,2026-06-17,yes,yes,
+27,0x1B,APAN3105,2,off,capacitive,622,1372,welded,13.12,15.61,4511,4083,4485,4072,,2026-06-23,2026-06-23,yes,yes,
+28,0x1C,APAN3105,1,off,resistive,20814,42294,welded,13.56,37.57,4634,4173,4906,6434,42,2026-06-23,2026-06-24,yes,yes,
+29,0x1D,APAN3105,2,on,capacitive,208220,285115,welded,12.67,13.1,5257,4046,5284,3438,35,2026-06-23,2026-06-27,yes,yes,
+30,0x1E,SRD-05VDC-SL-C,1,off,resistive,17275,38476,welded,20.29,192.31,3890,3488,4150,3482,52,2026-06-23,2026-06-24,yes,reference model,
+31,0x1F,SRD-05VDC-SL-C,1,on,resistive,406339,834956,stopped,9.67,9.93,4747,4514,4500,4627,41,2026-06-28,2026-07-08,yes,reference model,stopped without failure (>400k)
+32,0x20,APAN3105,2,off,capacitive,291,347,welded,13.22,14.01,4524,5138,4426,5161,,2026-06-28,2026-06-28,yes,yes,
+33,0x21,APAN3105,2,off,capacitive,7711,17185,welded,11.07,12.02,4634,4514,4620,5118,,2026-06-29,2026-06-29,yes,yes,
+34,0x22,APAN3105,2,off,capacitive,7387,16465,welded,11.13,11.34,4529,4272,4559,4553,,2026-06-29,2026-06-29,yes,yes,
+35,0x23,APAN3105,2,on,capacitive,739501,1659847,stopped,11.19,11.57,4716,4384,4671,4062,37,2026-06-30,2026-07-19,yes,yes,stopped without failure (>700k)
+36,0x24,APAN3105,1,on,resistive,416148,940311,stopped,11.36,12.14,4959,4338,4894,3387,36,2026-07-08,2026-07-19,yes,yes,stopped without failure (>400k)
+37,0x25,SRD-05VDC-SL-C,1,off,resistive,132981,296125,welded,9.86,235.11,4491,4072,4379,5386,37,2026-07-19,2026-07-22,yes,reference model,
+38,0x26,APAN3105,2,on,capacitive,470645,1023271,stopped,11.79,13.16,4771,4431,4819,3947,35,2026-07-19,2026-07-31,yes,yes,stopped without failure (>400k)
+39,0x27,APAN3105,1,on,resistive,401168,904042,stopped,11.63,13.86,4688,4485,4522,3703,37,2026-07-23,2026-08-03,yes,yes,stopped without failure (>400k)
+45,0x2D,APAN3105,2,on,resistive,20160,45548,stopped,12.04,13.78,4940,4100,4869,4330,37,2026-07-31,2026-08-01,yes,no,stopped at ~20k for microscopy (excluded from lifetime statistics)

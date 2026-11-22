@@ -1,0 +1,24 @@
+qty,value,designators,package,description
+6,0.1uF,"C12, C13, C14, C15, C16, C17",C0603,NON-POLARIZED CAP
+1,05200101Z,F1,05200101Z,Fuse Block 10 A 600V 1 Circuit Cartridge Through Hole
+3,10K,"R14, R15, R16",R0603,RESISTOR
+3,10K,"R1, R5, R8",R0603,RESISTOR
+7,10uF,"C1, C6, C7, C8, C9, C10, C11",C0603,NON-POLARIZED CAP
+3,1711039,"J1, J2, J3",1711039,"PCB terminal block MKDS 3, 3 positions, 5 mm pitch, 24 A, 400 V"
+6,1K,"R2, R3, R6, R7, R9, R10",R0603,RESISTOR
+3,1N4148WS,"D3, D4, D5",SODFL2512X90N,"ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS"
+3,330K,"R11, R12, R13",R1206,RESISTOR
+3,47uH,"L1, L2, L3",PM0603,INDUCTOR
+4,ERH2GM151M35OT,"C2, C3, C4, C5",ERH2GM151M35OT,"150uF 400V ±20% Plugin,D18xL35mm Aluminum Electrolytic Capacitors - Leaded ROHS"
+1,HLK-PM01,PS1,HLKPM01,Ultra-compact power module
+2,KBU810,"D1, D2",KBU810,
+3,MB10F,"BR1, BR2, BR3",SOP250P670X180-4N,Bridge Diode
+2,PA1A-PS+APA-N3105,"K1, K2",PA1APS,Relay Sockets & Hardware FOR PA1A RELAYS PCB
+3,Red,"LED1, LED2, LED3",LED0603,LED red 0603
+3,SI2302DDS-T1-GE3,"Q1, Q2, Q3",SOT95P237X112-3N,"SI2302DDS-T1-GE3 N-Channel MOSFET, 2.6 A, 20 V, 3-Pin SOT-363 Vishay"
+1,SRD-05VDC-SL-C,K3,RELAY_SRD-05VDC-SL-C,5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi Check availability
+1,SXLG1500,R4,LOAD,"Braking resistor SXLG 1500 W, 40 Ohm"
+8,TEST-POINT3X5,"TP1, TP2, TP3, TP4, TP5, TP6, TP8, TP9",PAD.03X.05,SparkFun Test Points
+3,TLP185_GB-TPL.SE_T,"Q4, Q5, Q6",SOIC127P700X230-6N,"Toshiba TLP185(GB-TPL,SE(T DC Input Phototransistor Output Optocoupler, Surface Mount, 4-Pin SO-6"
+3,ZGY133/T9(PLT),"Q7, Q8, Q9",ZGY133/T9(PLT),Fiber Optics Transmitters Plugin Fiber Optical Transceivers ROHS
+3,ZGY135/T9(PLR),"Q10, Q11, Q12",ZGY135/T9(PLR),Fiber Optic Receivers Plugin Fiber Optical Transceivers ROHS
