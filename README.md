@@ -85,7 +85,13 @@ pio run -t upload        # PlatformIO, libraries are installed automatically
 pio device monitor       # serial menu at 115200 baud
 ```
 
-Or open `firmware/RLG_OS/RLG_OS.ino` in the Arduino IDE (board: *ESP32 Dev Module*) and install the libraries listed in `firmware/platformio.ini`. Operation, the serial menu, error codes and the log format are described in [docs/firmware.md](docs/firmware.md).
+Or open `firmware/RLG_OS/RLG_OS.ino` in the Arduino IDE (board: *ESP32 Dev Module*, core 2.0.17) and install the libraries listed in `firmware/platformio.ini`.
+
+**Prebuilt binaries** are attached to every [release](../../releases):
+
+- `RLG_OS_vX.Y.Z_full.bin` – complete image for an empty board:
+  `esptool.py --chip esp32 write_flash 0x0 RLG_OS_vX.Y.Z_full.bin`
+- `RLG_OS_vX.Y.Z.bin` – application only: copy to the SD card as `/firmware.bin` (updated on next boot), or flash to `0x10000`. Operation, the serial menu, error codes and the log format are described in [docs/firmware.md](docs/firmware.md).
 
 ## ⚠️ Safety
 
